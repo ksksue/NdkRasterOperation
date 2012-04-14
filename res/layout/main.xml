@@ -3,12 +3,35 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
+        
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tvResultTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"  />
+    
+</LinearLayout>
 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="SRC" />
-
+    
     <ImageView
         android:id="@+id/imageviewSRC"
         android:layout_width="wrap_content"
@@ -27,7 +50,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="RESULT" />
+        android:text="NDK RESULT" />
 
     <ImageView
         android:id="@+id/imageviewRESULT"
@@ -35,3 +58,45 @@
         android:layout_height="wrap_content" />
 
 </LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SRC" />
+    
+    <ImageView
+        android:id="@+id/imageviewSRCJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MASK" />
+
+    <ImageView
+        android:id="@+id/imageviewMASKJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Java RESULT" />
+
+    <ImageView
+        android:id="@+id/imageviewRESULTJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+    
